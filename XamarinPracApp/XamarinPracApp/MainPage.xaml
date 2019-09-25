@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinPracApp"
+             x:Class="XamarinPracApp.MainPage">
+
+    <StackLayout>
+
+        <Label Text="This is a test game for android!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+
+        <Button Text="Is it this one?"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="ButtonClicked"/>
+
+        <Button Text="Maybe this one?"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="ButtonClicked"/>
+
+        <Button Text="Probably this one?"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="ButtonClicked"/>
+
+        <Label Text="This is a test game for android!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
